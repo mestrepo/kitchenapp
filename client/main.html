@@ -1,0 +1,22 @@
+<head>
+  <title>kitchenapp</title>
+</head>
+
+<body>
+  <h1>Welcome to Kitchen Application Project</h1>
+
+  {{> hello}}
+  {{> info}}
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="info">
+  <h2>About Kitchen Application</h2>
+  <ul>
+    <li><a href="https://github.com/mestrepo/kitchenapp/blob/master/README.md" target="_blank">Kitchen App Requirements</a></li>
+  </ul>
+</template>
