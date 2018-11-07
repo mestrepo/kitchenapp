@@ -36,3 +36,7 @@ The app should be built with Meteor. You may use any frontend framework, but to 
 
 #### System
 1. System can send notifications to users.
+
+## Database structure
+
+![alt text](public/ER-diagram.jpeg "Entity Relation Database Diagram")
